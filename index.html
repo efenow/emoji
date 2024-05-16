@@ -1,1 +1,55 @@
+<!-- Made by @efenow on Github. -->
+<!DOCTYPE html>
 
+<html>
+
+    <head>
+        <title>Emoji of the Day | efenow</title>
+        <link rel="icon" href="resimler/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://kit.fontawesome.com/e0c0a06cdf.js" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </head>
+
+    <body>
+
+        <div id="baslik" >
+
+            <img src="resimler/clippy.png" draggable="false">
+    
+        </div>
+
+        <div id="benkimim" > 
+
+            <h1>efenow</h1>
+    
+            <p>Emoji of the Day</p>
+        </div>
+
+        <div id="emojibox">
+                
+                <div id="emoji">
+    
+                    <p id="emojitext">🤔</p>
+    
+                </div>
+    
+                <div id="tarih">
+    
+                    <p id="datetime">📅</p>
+
+                    <script>
+                        // Get current date and time
+                        var now = new Date();
+                        var datetime = "📅 Emoji of " + now.toLocaleString();
+                      
+                        // Insert date and time into HTML
+                        document.getElementById("datetime").innerHTML = datetime;
+                      </script>
+    
+                </div>
+        </div>
+
+    </body>
+
+</html>
