@@ -1,1 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+:root
+{
+	--text-black: #0f172a;
+}
+
+body{
+	font-family: "Inter",Helvecita,Arial;
+	margin: 0;
+	font-weight: 600;
+	background-color: #D3D3D3;
+}
+
+::selection
+{
+	background-color: var(--text-black);
+	color: white;
+}
+
+#baslik{
+	text-align: center;
+	padding: 20px 0px;
+
+}
+
+#baslik img{
+	height: 150px;
+}
