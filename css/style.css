@@ -70,8 +70,20 @@ h1{
 
 }
 
+#emojitext{
+	font-size: 60px;
+	color: var(--text-black);
+	text-align: center;
+	line-height: 200%;
+	padding: 20px 0px;
+}
+
+#emojibutton{
+	text-align: center;
+}
+
 p {
-	font-size: 30px;
+	font-size: 60px;
 	color: var(--text-black);
 	text-align: center;
 	line-height: 200%;
