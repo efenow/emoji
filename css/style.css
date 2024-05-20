@@ -61,6 +61,10 @@ h1{
 	display: inline-block;
 }
 
+h3{
+	margin: 0px 0px;
+}
+
 #benkimim{
 	font-size: 30px;
 	color: var(--text-black);
@@ -68,14 +72,6 @@ h1{
 	line-height: 200%;
 	padding: 20px 0px;
 
-}
-
-#emojitext{
-	font-size: 60px;
-	color: var(--text-black);
-	text-align: center;
-	line-height: 200%;
-	padding: 20px 0px;
 }
 
 #emojibutton{
@@ -88,6 +84,7 @@ p {
 	text-align: center;
 	line-height: 200%;
 	padding: 20px 0px;
+	margin: 0px 0px;
 }
 
 .pickEmojiButton {
@@ -99,7 +96,7 @@ p {
 	box-sizing: border-box;
 	color: rgba(0, 0, 0, 0.85);
 	cursor: pointer;
-	display: inline-flex;
+	display: flex;
 	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 16px;
 	font-weight: 600;
@@ -116,6 +113,7 @@ p {
 	touch-action: manipulation;
 	vertical-align: baseline;
 	width: auto;
+
   }
   
   .pickEmojiButton:hover,
