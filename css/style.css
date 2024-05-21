@@ -59,6 +59,7 @@ h1{
 	background-clip: text;
 	color: transparent;
 	display: inline-block;
+	margin-bottom: 0px;
 }
 
 h3{
@@ -80,12 +81,21 @@ h3{
 	justify-content: center;
 }
 
-p {
+#emojitext {
 	font-size: 60px;
 	color: var(--text-black);
 	text-align: center;
 	line-height: 200%;
 	padding: 20px 0px;
+	margin: 0px 0px;
+}
+
+#desc {
+	font-size: 15px;
+	color: var(--text-black);
+	text-align: center;
+	line-height: 200%;
+	padding: 0px 0px;
 	margin: 0px 0px;
 }
 
@@ -136,3 +146,60 @@ p {
 	color: rgba(0, 0, 0, 0.65);
 	transform: translateY(0);
   }
+
+#emojibox{
+	text-align: center;
+	background-color: #F0F0F1;
+	padding: 20px 0px;
+	margin: 15px 850px 0px 850px;
+	border-radius: 10px;
+}
+
+hr
+{
+	background-color: #515151;
+	width: 700px;
+	height: 1px;
+	border: 0px;
+	margin: 20px auto;
+}
+#iletisim p
+{
+	margin: 0;
+	text-align: center;
+}
+
+#iletisim hr
+{
+	background-color: #515151;
+	width: 700px;
+	height: 1px;
+	border: 0px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#iletisim
+{
+	
+	text-align: center;
+	margin: 100px 0px 0px 0px;
+}
+
+#pages
+{
+	font-size: 20px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+a
+{
+	text-decoration: underline;
+	color: var(--text-black);
+}
+
+a:hover
+{
+	color: steelblue;
+}
